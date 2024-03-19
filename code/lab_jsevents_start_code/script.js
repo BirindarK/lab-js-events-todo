@@ -48,7 +48,7 @@ toDoList.addEventListener("submit", (evt) =>{
 
     clearButton.addEventListener("click", (evt) => {
         completedItem.removeChild(newItem);
-     completedItem.removeChild(clearButton);
+        completedItem.removeChild(clearButton);
  })
 
 //ensured that the form created list items
